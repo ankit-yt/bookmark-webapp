@@ -92,7 +92,6 @@ export default function AddBookmarkModal({
                       border border-neutral-200
                       px-6 py-5">
 
-        {/* Header */}
         <div className="mb-5">
           <h2 className="text-lg font-semibold text-neutral-900">
             Add Bookmark
@@ -104,7 +103,6 @@ export default function AddBookmarkModal({
 
         <div className="space-y-4">
 
-          {/* Title */}
           <div>
             <label className="text-sm font-medium text-neutral-800 mb-1 block">
               Title

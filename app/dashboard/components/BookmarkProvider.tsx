@@ -83,7 +83,6 @@ export default function BookmarkProvider({
         ? url
         : `https://${url}`
 
-    // Optimistic Update
     const temp: Bookmark = {
       id: crypto.randomUUID(),
       title,

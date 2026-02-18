@@ -48,7 +48,7 @@ export default function BookmarkCard({
   }
 
   const handleDelete = (e: React.MouseEvent<HTMLButtonElement>): void => {
-    e.stopPropagation() // prevent triggering openLink
+    e.stopPropagation() 
     deleteBookmark(bookmark.id)
   }
 
